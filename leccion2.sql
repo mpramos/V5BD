@@ -1,7 +1,6 @@
 --**Ejercicio 3: Tareas**Toy Story 2
 
 --1. Encuentra todas las películas de Toy Story
-select * from movie
 select *
 from movie
 where titulo like 'Toy Story%'

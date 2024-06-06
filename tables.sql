@@ -71,5 +71,12 @@ INSERT INTO Empleado (Role, Nombre, Edificio, Años_empleado) VALUES ('Gerente',
 
 select * from Empleado
 
-
+create table Edificio(
+	Nombre_Del_Edificio TEXT PRIMARY KEY,
+	Capacidad INTEGER
+)
+insert into Edificio(Nombre_Del_Edificio,Capacidad) values('1e', 24);
+insert into Edificio(Nombre_Del_Edificio,Capacidad) values('1s', 32);
+insert into Edificio(Nombre_Del_Edificio,Capacidad) values('2e', 16);
+insert into Edificio(Nombre_Del_Edificio,Capacidad) values('2w', 20);
 

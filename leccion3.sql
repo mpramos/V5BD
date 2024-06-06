@@ -11,3 +11,7 @@ select *
 from movie
 order by anio desc
 limit 4
+-- Enumere las próximas cinco películas de Pixar ordenadas alfabéticamente.
+select * 
+from movie
+order by titulo limit 5
